@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> You News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="request-access" id="openModal">Request Access</button>
+  <!-- <button class="blog-button" id="blogButton">Blog</button> -->
+
+  <dialog id="modal">
+      <h1 class="modal-h1">Request Access</h1>
+      <p class="modal-text">Join our waitlist to access our invite-only mode once launched</p>
+   
+      <form >
+          <label class="emaildescription" for="email">Email address</label required>
+          <input class="form-field" type="text" name="email" placeholder="Enter your email">
+          <label class="reasondescription" for="email">Reason for use</label>
+          <select class="form-field2">
+              <option value="">Select</option>
+              <option value="education">Education</option>
+              <option value="work">Work</option>
+              <option value="personal">Personal</option>
+              <option value="other">Other</option>
+          </select>
+      </form>
+      <button class="request-access2" id="submitRequestAccess">Request access</button>
+      <button class="x" id="closeModal" aria-label="close">❌</button>
+  </dialog>
+    <main class="flex items-center justify-between">
+      <div class="max-w-3xl sm:shrink-0">
+        <span class="currently-in-private-beta inline-flex cursor-default select-none items-center whitespace-nowrap font-semibold bg-yellow-300 text-yellow-900 text-xs h-6 px-2 rounded">Currently in development</span>
+      </div>
+      <div class="description"> 
+        <h1 id="dynamicHeading">Personalized News Clips</h1>
+        <h2 id="youNewsHeading">YouNews</h2>
+        <p class="sub-text">Access short clips of news that you missed while sleeping. Updated daily.</p>
+        <p class="keyboard-a-text">Press <span class="keyboard-a-char">A</span> to request access</p>
+        <p class="kb-lm-text">Press <span class="kb-lm-char">L</span> to learn more about us</p>
+      </div>
+<!-- start editing -->
+
+        
+        </div>
+    </div>
+  </div>
+<!-- end edit -->
+    </main>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
+

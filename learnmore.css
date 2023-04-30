@@ -1,0 +1,30 @@
+.lm-h1{
+    font-size: 80px;
+    position: relative;
+    bottom: 70px;
+}
+
+.lm-content{
+    position:relative;
+    bottom: 40px;
+}
+
+.txt-2{
+    left: 30px;
+}
+
+.home{
+    position: fixed;
+    bottom: calc(693px + 103px);
+    right: 70px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: -3px -3px 10px 0 #fff, 3px 3px 10px 0 #fff;
+    transition: box-shadow 0.3s ease;
+}
